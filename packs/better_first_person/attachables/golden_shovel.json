@@ -12,8 +12,8 @@
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.sword"
-      },
+        "default": "geometry.shovel"
+      }
       "animations": {
         "wield": "animation.bow.wield"
       },
