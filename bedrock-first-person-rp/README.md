@@ -11,7 +11,7 @@ Notes
 - Arms are hidden from the third-person model in first-person to avoid double hands; vanilla FP hands/items still render.
 - Head/hat are hidden in first-person to prevent clipping.
 - Legs and torso are forced visible in first-person via render controller conditions.
-- Some states (elytra, boats, sneaking) may clip or look odd due to engine limits.
+- When gliding, swimming, or riding in first person, the extra body parts are temporarily hidden to reduce camera clipping.
 
 Compatibility
 - May conflict with packs that override `controller.render.player` or `entity/player.entity.json`.

@@ -26,13 +26,13 @@
         { "hat": "!query.is_first_person" },
         { "cape": "!query.is_first_person && query.has_cape" },
 
-        { "body": "1" },
-        { "jacket": "query.is_first_person ? 1 : 1" },
+        { "body": "query.is_first_person ? (!query.is_gliding && !query.is_swimming && !query.is_riding) : 1" },
+        { "jacket": "query.is_first_person ? (!query.is_gliding && !query.is_swimming && !query.is_riding) : 1" },
 
-        { "leftLeg": "query.is_first_person" },
-        { "rightLeg": "query.is_first_person" },
-        { "leftPants": "query.is_first_person" },
-        { "rightPants": "query.is_first_person" },
+        { "leftLeg": "query.is_first_person ? (!query.is_gliding && !query.is_swimming && !query.is_riding) : 1" },
+        { "rightLeg": "query.is_first_person ? (!query.is_gliding && !query.is_swimming && !query.is_riding) : 1" },
+        { "leftPants": "query.is_first_person ? (!query.is_gliding && !query.is_swimming && !query.is_riding) : 1" },
+        { "rightPants": "query.is_first_person ? (!query.is_gliding && !query.is_swimming && !query.is_riding) : 1" },
 
         { "leftArm": "!query.is_first_person" },
         { "rightArm": "!query.is_first_person" },
