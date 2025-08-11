@@ -10,11 +10,11 @@
         "default": "textures/models/armor/netherite_layer_2"
       },
       "geometry": {
-        "default": "geometry.leggings"
-      },
+        "default": "geometry.armor_leggings"
+      }
       "render_controllers": [
         {
-          "controller.render.custom": "c.is_first_person"
+          "controller.render.armor_default": "c.is_first_person"
         }
       ]
     }
