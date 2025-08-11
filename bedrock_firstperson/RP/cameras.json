@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:camera_presets": {
+    "presets": {
+      "firstperson_model:body_first_person": {
+        "inherits_from": "minecraft:follow_orbit",
+        "pos": [0.0, 1.62, 0.0],
+        "rot": [0.0, 0.0, 0.0],
+        "distance": 0.08,
+        "yaw_behavior": "body",
+        "pitch_behavior": "body",
+        "fov": 70.0,
+        "near_plane": 0.01
+      }
+    }
+  }
+}

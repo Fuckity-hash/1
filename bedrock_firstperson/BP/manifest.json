@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "First-person Model (Bedrock) - Behavior Pack",
+    "description": "Functions to set custom camera preset for first-person body view.",
+    "uuid": "10af8ca7-4f82-4393-8bf2-3623b0869a2e",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "990c22ce-9b5c-4ea5-b5b2-6fb0b001d306",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "de42323b-be84-41d0-a93c-44d5c239b7d3",
+      "version": [1, 0, 0]
+    }
+  ]
+}
