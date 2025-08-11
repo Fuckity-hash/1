@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "By §bKID_SKY · Enhanced first-person body view with presets",
+      "name": "§l§aThe Better First Person+ (Enhanced)",
+      "uuid": "46285faf-c315-4f3a-ba3e-8209f4a11f19",
+      "version": [5, 1, 0],
+      "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+      {
+        "description": "KID_SKY · Enhanced",
+        "type": "resources",
+        "uuid": "90d10c78-f9c8-448f-a7cf-33fe15f42ebf",
+        "version": [5, 1, 0]
+      }
+    ],
+    "metadata": {
+      "authors": ["KID_SKY", "Enhanced by Assistant"],
+      "url": "https://mcpedl.com/the-better-first-person-pack/"
+    },
+    "subpacks": [
+      {
+        "folder_name": "subpacks/classic",
+        "name": "Camera Preset: Classic",
+        "memory_tier": "low"
+      },
+      {
+        "folder_name": "subpacks/low",
+        "name": "Camera Preset: Low (more body visible)",
+        "memory_tier": "low"
+      },
+      {
+        "folder_name": "subpacks/ultrawide",
+        "name": "Camera Preset: Ultrawide (push forward)",
+        "memory_tier": "low"
+      }
+    ]
+}

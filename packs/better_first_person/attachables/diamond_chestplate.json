@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:diamond_chestplate",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/armor/diamond_layer_1"
+      },
+      "geometry": {
+        "default": "geometry.armor_chest"
+      },
+      "render_controllers": [
+        {
+          "controller.render.custom": "c.is_first_person"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:leather_leggings",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/armor/leather_layer_2"
+      },
+      "geometry": {
+        "default": "geometry.leggings"
+      },
+      "render_controllers": [
+        {
+          "controller.render.custom": "c.is_first_person"
+        }
+      ]
+    }
+  }
+}
