@@ -14,7 +14,7 @@
       },
       "render_controllers": [
         {
-          "controller.render.armor_default": "c.is_first_person"
+          "controller.render.armor_default": true
         }
       ]
     }

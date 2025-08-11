@@ -28,12 +28,12 @@
         "animate": [
           "wield",
           {
-            "wield_first_person_pull": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"
+            "wield_first_person_pull": "query.main_hand_item_use_duration > 0.0f"
           }
         ]
       },
       "render_controllers": [ 
-          {"controller.render.bow" : "c.is_first_person"}
+          {"controller.render.bow" : true}
         ]
     }
   }

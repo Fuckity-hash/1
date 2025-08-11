@@ -33,7 +33,7 @@
         ]
       },
             "render_controllers": [ 
-          {"controller.render.crossbow" : "c.is_first_person"}
+          {"controller.render.crossbow" : true}
         ]
     }
   }

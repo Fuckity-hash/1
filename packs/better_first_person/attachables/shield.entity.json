@@ -24,7 +24,7 @@
           "wield"
         ]
       },
-      "render_controllers": [ {"controller.render.shield": "c.is_first_person"} ]
+      "render_controllers": [ {"controller.render.shield": true} ]
     }
   }
 }

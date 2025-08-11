@@ -31,7 +31,7 @@
           "wield"
         ]
       },
-      "render_controllers": [ {"controller.render.item_default": "c.is_first_person"} ]
+      "render_controllers": [ {"controller.render.item_default": true} ]
     }
   }
 }
