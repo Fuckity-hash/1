@@ -3,15 +3,6 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:player",
-      "materials": {
-        "default": "entity_alphatest"
-      },
-      "textures": {
-        "default": "textures/entity/steve"
-      },
-      "geometry": {
-        "default": "geometry.humanoid"
-      },
       "render_controllers": [
         "controller.render.player"
       ]
