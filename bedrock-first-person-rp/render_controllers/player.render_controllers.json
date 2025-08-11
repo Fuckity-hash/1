@@ -1,0 +1,50 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.player": {
+      "arrays": {
+        "textures": {
+          "default": ["Texture.default"],
+          "cape": ["Texture.cape"]
+        },
+        "geometries": {
+          "default": ["Geometry.default"]
+        },
+        "materials": {
+          "default": ["Material.default"]
+        }
+      },
+      "geometry": "Array.geometries.default[0]",
+      "materials": [
+        { "*": "Array.materials.default[0]" }
+      ],
+      "textures": [
+        "Array.textures.default[0]"
+      ],
+      "part_visibility": [
+        { "head": "!query.is_first_person" },
+        { "hat": "!query.is_first_person" },
+        { "helmet": "!query.is_first_person" },
+        { "headwear": "!query.is_first_person" },
+        { "cape": "!query.is_first_person && query.has_cape" },
+
+        { "body": "1" },
+        { "torso": "query.is_first_person ? 1 : 1" },
+
+        { "left_leg": "query.is_first_person" },
+        { "right_leg": "query.is_first_person" },
+        { "leftLeg": "query.is_first_person" },
+        { "rightLeg": "query.is_first_person" },
+        { "left_leg_layer": "query.is_first_person" },
+        { "right_leg_layer": "query.is_first_person" },
+
+        { "left_arm": "!query.is_first_person" },
+        { "right_arm": "!query.is_first_person" },
+        { "leftArm": "!query.is_first_person" },
+        { "rightArm": "!query.is_first_person" },
+        { "left_arm_layer": "!query.is_first_person" },
+        { "right_arm_layer": "!query.is_first_person" }
+      ]
+    }
+  }
+}
