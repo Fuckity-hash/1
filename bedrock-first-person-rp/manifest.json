@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "First Person Body (RP-only)",
+    "description": "Shows legs and torso in first person for added immersion. RP-only; no camera changes.",
+    "uuid": "9e5d3a7e-9c55-4e6a-9203-9c8b6bde9c11",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "6a3f0f0c-a8f6-4b3d-84a6-2b2771b0f6d2",
+      "version": [1, 0, 0]
+    }
+  ]
+}
