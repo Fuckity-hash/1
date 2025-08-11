@@ -121,7 +121,6 @@
         "blink": "controller.animation.persona.blink"
       },
       "render_controllers": [
-        { "controller.render.player.first_person": "variable.is_first_person" },
         { "controller.render.custom": "variable.is_first_person" },
         { "controller.render.player.third_person": "!variable.is_first_person && !variable.map_face_icon" },
         { "controller.render.player.map": "variable.map_face_icon" }
