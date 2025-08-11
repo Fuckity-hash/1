@@ -10,8 +10,8 @@
         "default": "textures/models/armor/diamond_layer_1"
       },
       "geometry": {
-        "default": "geometry.boots"
-      },
+        "default": "geometry.armor_boots"
+      }
       "render_controllers": [
         {
           "controller.render.custom": "c.is_first_person"
