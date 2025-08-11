@@ -1,0 +1,21 @@
+/*KID_SKY*/
+{
+  "format_version": "1.10",
+  "render_controllers": {
+    "controller.render.item_default": {
+      "geometry": "geometry.default",
+      "materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+      "textures": [ "texture.default", "texture.enchanted" ]
+    },
+        "controller.render.shield": {
+    "arrays": {        
+        "geometries": {
+          "Array.geos": [ "Geometry.default.l", "Geometry.default" ]
+        }
+      	},
+      "geometry": "Array.geos[query.get_equipped_item_name == 'shield']",
+      "materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+      "textures": [ "texture.default", "texture.enchanted" ]
+    }
+  }
+}

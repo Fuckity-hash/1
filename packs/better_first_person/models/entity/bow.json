@@ -1,0 +1,91 @@
+/*KID_SKY*/
+{
+	"format_version" : "1.16.0",
+	"minecraft:geometry" : [
+	    	{
+			"description" : {
+				"identifier" : "geometry.bow",
+				"texture_width" : 16.0,
+				"texture_height" : 16.0
+			},
+			"bones" : [
+				{
+					"name" : "shield",
+					"parent": "Frightarm",
+					"texture_meshes" : [
+						{
+							"local_pivot" : [ 0, 0, 0 ],
+							"position" : [ 2, 10, -10 ],
+							"rotation" : [ 0, 10, -90 ],
+							"scale": [1.1, 1.1,1.1],
+							"texture" : "default"
+						}
+					]
+				}
+			]
+		},
+	{
+			"description" : {
+				"identifier" : "geometry.bow0",
+				"texture_width" : 16.0,
+				"texture_height" : 16.0
+			},
+			"bones" : [
+				{
+					"name" : "shield",
+					"parent": "Frightarm",
+					"texture_meshes" : [
+						{
+							"local_pivot" : [ 0, 0, 0 ],
+							"position" : [ 2, 13, -6 ],
+							"rotation" : [ 0, 45, -90 ],
+							"texture" : "bow_pulling_0"
+						}
+					]
+				}
+			]
+		},
+			{
+			"description" : {
+				"identifier" : "geometry.bow1",
+				"texture_width" : 16.0,
+				"texture_height" : 16.0
+			},
+			"bones" : [
+				{
+					"name" : "shield",
+					"parent": "Frightarm",
+					"texture_meshes" : [
+						{
+							"local_pivot" : [ 0, 0, 0 ],
+							"position" : [ 2, 13, -6 ],
+							"rotation" : [ 0, 45, -90 ],
+							"texture" : "bow_pulling_1"
+						}
+					]
+				}
+			]
+		},
+			{
+			"description" : {
+				"identifier" : "geometry.bow2",
+				"texture_width" : 16.0,
+				"texture_height" : 16.0
+			},
+			"bones" : [
+				{
+					"name" : "shield",
+					"parent": "Frightarm",
+					"texture_meshes" : [
+						{
+							"local_pivot" : [ 0, 0, 0 ],
+							"position" : [ 2, 13, -6 ],
+							"rotation" : [ 0, 45, -90 ],
+							"texture" : "bow_pulling_2"
+						}
+					]
+				}
+			]
+		}
+	]
+}

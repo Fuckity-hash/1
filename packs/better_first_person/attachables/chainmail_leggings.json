@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:chainmail_leggings",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/armor/chainmail_layer_2"
+      },
+      "geometry": {
+        "default": "geometry.armor_leggings"
+      }
+      "render_controllers": [
+        {
+          "controller.render.armor_default": true
+        }
+      ]
+    }
+  }
+}

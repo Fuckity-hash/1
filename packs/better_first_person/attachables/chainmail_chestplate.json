@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:chainmail_chestplate",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/armor/chainmail_layer_1"
+      },
+      "geometry": {
+        "default": "geometry.armor_chest"
+      },
+      "render_controllers": [
+        {
+          "controller.render.armor_default": true
+        }
+      ]
+    }
+  }
+}
